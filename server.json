@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.aimailmcp/mail",
+  "title": "AI Mail MCP",
+  "description": "Real email for AI agents: domains, mailboxes, a unified inbox, wait-for-code, send and reply.",
+  "version": "0.1.0",
+  "websiteUrl": "https://aimailmcp.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aimailmcp.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token (amk_...) from https://aimailmcp.com/api/v1/signup, or sign in with OAuth.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
