@@ -125,6 +125,7 @@ Scoped tokens for other agents, and the audit log.
 | `list_tokens` | Tokens on this account: label, prefix, scope, send permission, cap, last use. |
 | `revoke_token` | Revoke a token by id or prefix. |
 | `audit_log` | Recent tool calls on this account (every attempt, including refusals and dry runs): tool, outcome, token, time. |
+| `get_usage` | What this token used: sends and recipients, inbound messages, storage GB-days and tool calls, with what each cost us, by operation or by day. Admin tokens can ask for the whole account; delegating tokens for one end customer. |
 
 Full schemas: https://aimailmcp.com/tools.json
 
