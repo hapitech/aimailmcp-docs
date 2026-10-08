@@ -1,4 +1,4 @@
-<p align="center"><img src="logo.png" width="128" alt="AI Mail MCP logo"></p>
+<p align="center"><img src="logo.svg" width="128" alt="AI Mail MCP logo"></p>
 
 # AI Mail MCP
 

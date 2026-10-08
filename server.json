@@ -5,6 +5,22 @@
   "description": "Real email for AI agents: domains, mailboxes, a unified inbox, wait-for-code, send and reply.",
   "version": "0.1.0",
   "websiteUrl": "https://aimailmcp.com",
+  "icons": [
+    {
+      "src": "https://aimailmcp.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    },
+    {
+      "src": "https://aimailmcp.com/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
