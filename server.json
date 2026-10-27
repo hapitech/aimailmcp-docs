@@ -2,9 +2,13 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.aimailmcp/mail",
   "title": "AI Mail MCP",
-  "description": "Real email for AI agents: domains, mailboxes, a unified inbox, wait-for-code, send and reply.",
-  "version": "0.1.0",
+  "description": "One inbox for every hat you wear: support, sales, billing mail, triaged and drafted by your agent.",
+  "version": "0.1.3",
   "websiteUrl": "https://aimailmcp.com",
+  "repository": {
+    "url": "https://github.com/hapitech/aimailmcp-docs",
+    "source": "github"
+  },
   "icons": [
     {
       "src": "https://aimailmcp.com/favicon.svg",
